@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu{
+    background-color: rgb(199, 212, 97);
+    height: 50px;
+}
+.menu ul{
+    width: 800px; /* Que quepan los elementos */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.elemento{
+    display: inline;
+    margin: 0 20px;
+   /*  margin: superior derecha inferior izquierdo; */
+
+}
+.menu .elemento{
+    display: inline;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.menu .elemento:hover{
+    background-color: hotpink;
+}
+.elemento a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px; /* espacio de arriba */
+    font-family: 'Roboto Mono', monospace;
+    transition: color 3s;
+    
+}
+
+.elemento a:hover{
+    color:gray;
+    font-size: 30px;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    padding-inline-start: 40px;
+
+}
